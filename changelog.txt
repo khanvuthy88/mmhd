@@ -1,0 +1,313 @@
+v1.2.8 (Dec 16, 2017)
+ -----------------------------
+ - Fixed post layout buttons causing crawler errors.
+
+ Files updated:
+- archive.php
+- functions.php
+- index.php
+- js/customscript.js
+- lang/mythemeshop.pot
+- search.php
+- style.css
+ 
+v1.2.7 (Apr 07, 2017)
+ -----------------------------
+ - Include Support tab in Theme Options Panel.
+ - Fixed Schema Issue.
+ - Fixed wrong background field constructor args in the Options Panel.
+ - Load typography scripts only on theme options page.
+ 
+ Files updated:
+ - style.css
+ - functions.php
+ - theme-options.php
+ - options/support.php
+ - options/options.php 
+ - options/css/options.css
+ - options/js/clipboard.min.js
+ - options/js/help.js
+ - options/fields/background/field_background.php 
+ - options/fields/group/field_group.php 
+ - options/google-typography/google-typography.php 
+
+v1.2.6 (Mar 13, 2017)
+-----------------------------
+- Added Basic WooCommerce support
+
+Files updated:
+- functions.php
+- style.css
+
+
+v1.2.5 (Mar 03, 2017)
+-----------------------------
+- Improved internalization
+
+Files updated:
+- functions.php
+- lang/mythemeshop.pot
+- style.css
+
+
+v1.2.4 (Jan 30, 2017)
+-----------------------------
+- Removed unused secondary menu theme location
+- Fixed issues with Twitter widget
+- Updated pot file
+
+Files updated:
+- css/responsive.css
+- css/rtl.css
+- functions.php
+- functions/widget-tweets.php
+- lang/default.mo
+- lang/default.po
+- lang/default.pot
+- style.css
+
+
+v1.2.3 (Jan 14, 2017)
+-----------------------------
+- One click demo importer improvements
+
+Files updated:
+- style.css
+- functions.php
+- options/demo-importer/
+
+
+v1.2.2 (Dec 14, 2016)
+-----------------------------
+- Fixed demo importer issue on some servers
+
+Files updated:
+- style.css
+- functions.php
+- options/demo-importer/importer/radium-importer.php
+
+
+v1.2.1 (Nov 04, 2016)
+-----------------------------
+- fix: messed up header when not on the homepage and is using a logo
+
+Files updated:
+- functions.php
+- header.php
+- lang/default.pot
+- style.css
+
+v1.2.0 (Nov 02, 2016)
+-----------------------------
+- removed: translation tab (functionality now in a separate plugin - My WP Translate)
+- removed: html5shim
+- new: JSON-LD schema for posts
+- new: Performance tab in Theme Options
+- new: Added Yoast SEO compatibility to schema
+- new: Added retina support
+- new: Updated FontAwesome from 4.4.0 to 4.6.3
+- new: Child theme support for widgets
+- fix: Don't show breadcrumbs on front page
+- fix: updated lazy loading script
+- fix: Changed Author nickname to display_name in Author Box
+- fix: Latest Posts now uses theme options settings instead of "Blog pages show at most" setting
+- fix: pagination misaligned when "next" is visible
+- fix: hentry related issues in Google Webmaster Tools
+- fix: home slider not working if there is 1 slide
+- minor bug fixes and improvements
+
+Files updated:
+- 404.php
+- archive.php
+- comments.php
+- css/font-awesome.min.css
+- fonts/FontAwesome.otf
+- fonts/fontawesome-webfont.eot
+- fonts/fontawesome-webfont.svg
+- fonts/fontawesome-webfont.ttf
+- fonts/fontawesome-webfont.woff
+- fonts/fontawesome-webfont.woff2
+- functions.php
+- functions/contact-form.php
+- functions/nav-menu.php
+- functions/plugin-activation.php
+- functions/theme-actions.php
+- functions/widget-recentposts.php
+- functions/widget-tweets.php
+- header.php
+- index.php
+- js/customscript.js
+- js/layzr.min.js
+- js/owl.carousel.min.js
+- js/retina.js
+- lang/default.pot
+- options/css/aristo.css
+- options/css/options.css
+- options/css/select2.css
+- options/fields/group/field_group.css
+- options/fields/group/field_group.js
+- options/fields/icon_select/field_icon_select.php
+- options/google-typography/google-typography.php
+- options/js/options.js
+- options/options.php
+- page.php
+- search.php
+- single.php
+- style.css
+- theme-options.php
+- theme-presets.php
+
+
+v1.1.2 (Oct 22, 2016)
+-----------------------------
+- Fixed bug when activating plugin right after inline ajax installation in Install Plugins page
+
+Files updated:
+- style.css
+- functions.php
+- functions/plugin-activation.php
+
+
+v1.1.1 (Oct 19, 2016)
+-----------------------------
+- Install Plugins page improvements
+
+Files updated:
+- style.css
+- functions.php
+- functions/plugin-activation.php
+- js/addons.js
+- css/addons.css
+- options/
+- lang/
+
+
+v1.1.0 (Sep 29, 2016)
+-----------------------------
+- Added one click demo importer
+- Updated image upload option field
+- Updated language files
+
+Files updated:
+- style.css
+- functions.php
+- theme-presets.php
+- options/
+- lang/
+
+
+v1.0.10 (Sep 12, 2016)
+-----------------------------
+- Fixed schema date on posts
+
+Files updated:
+- style.css
+- functions/theme-actions.php
+
+v1.0.9 (Mar 17, 2016)
+-----------------------------
+- Updated code on Recommended plugins page
+
+Files updated:
+- style.css
+- functions/plugin-activation.php
+- css/addons.css
+
+v1.0.8 (Mar 9, 2016)
+-----------------------------
+- Recommended plugins page changes
+
+Files updated:
+- style.css
+- functions.php
+- functions/plugin-activation.php
+- css/addons.css
+
+v1.0.7 (Feb 13, 2016)
+-----------------------------
+- Fixed newly introduced structured data errors
+
+Files changed:
+- style.css
+- index.php
+- functions/theme-actions.php
+- archive.php
+
+v1.0.6 (Feb 6, 2016)
+-----------------------------
+- Added recommended plugins page
+
+Files changed:
+- style.css
+- functions/plugin-activation.php
+- css/addons.css
+- js/addons.js
+
+
+v1.0.5 (Sep 7, 2015)
+-----------------------------
+- Changed widget constructors to PHP 5 style
+- Fixed twitter widget PHP notice
+- Removed box-shadow inside mobile menu
+- Fixed structured data errors
+
+Files updated:
+- style.css
+- index.php
+- archive.php
+- search.php
+- single.php
+- functions.php
+- functions/teme-actions.php
+- functions/widget-ad125.php
+- functions/widget-ad300.php
+- functions/widget-ad728.php
+- functions/widget-fblikebox.php
+- functions/widget-social.php
+- functions/widget-footer-logo.php
+- functions/widget-tweets.php
+- css/responsive.css
+
+
+v1.0.4 (May 29, 2015)
+-----------------------------
+- Fixed typography panel issue
+
+Files updated:
+- style.css
+- options/google-typography/google-typography.php
+- options/google-typography/javascripts/google-typography.js
+
+
+v1.0.3 (May 23, 2015)
+-----------------------------
+- Fixed review bars overlapping with floating navigation.
+
+Files updated:
+- style.css
+- functions.php
+
+
+v1.0.2 (May 22, 2015)
+-----------------------------
+- Fixed spelling mistakes in Options Panel
+
+Files updated:
+- style.css
+- lang/default.po
+- lang/default.mo
+- theme-options.php
+
+
+v1.0.1 (May 19, 2015)
+-----------------------------
+- Fixed text domain issue in typography options file.
+
+Files updated:
+- style.css
+- options/google-typography/google-typography.php
+
+
+v1.0 (May 19, 2015)
+-----------------------------
+- Theme Released

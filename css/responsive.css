@@ -1,0 +1,213 @@
+html { overflow-x: hidden }
+.main-container { max-width: 100% }
+/*-----------------------------------------------
+/* @media { } queries
+/*---------------------------------------------*/
+@media screen and (max-width:1300px) { 
+    .shareit { position: relative!important; width: 100%!important; top: 0!important; padding-left: 0!important; padding-right: 0!important; margin: 0!important; padding-top: 10px!important; border: none !important; }
+}
+@media screen and (max-width:1230px) { 
+    #page, .container { max-width: 96% }
+    img { max-width: 100%; height: auto!important; }
+    .single-title { font-size: 30px!important }
+    .related-posts .title { font-size: 22px }
+    #move-to-top { right: 5px }
+}
+@media screen and (max-width:1130px) { 
+    #primary-navigation { margin-left: 6px }
+    .top-posts .latestPost header .title { font-size: 20px; left: 10px; right: 10px; }
+    .sidebar .widget-slider h2 { font-size: 18px; max-height: 42px; overflow: hidden; left: 10px; right: 10px; bottom: 5px; }
+    .widget .wpt_widget_content .entry-title { overflow: inherit }
+    .widget .wpt_widget_content .wpt-postmeta { margin-left: 0 }
+    .widget .wpt_thumb_small, #sidebar .wp-post-image, #site-footer .wp-post-image { margin-right: 15px }
+    .widget .wp_review_tab_widget_content .wp-review-tab-postmeta { float: left; clear: both; }
+    .children .comment .comment-text-wrap, .comment .comment-text-wrap { width: 87% }
+    .related-posts .title { font-size: 20px }
+}
+@media screen and (max-width:1020px) { 
+    #primary-navigation a { padding: 0px 12px }
+    .latestPost .title { font-size: 20px }
+    .related-posts .title { font-size: 18px }
+    .widget h3 { font-size: 20px }
+    .commentlist .children { margin-left: 0; width: 100%; }
+    .postauthor .author-wrap { width: 78% }
+    .widgets-num-4 .f-widget-bigger .f-widget { width: 31%; margin-right: 3.5%; }
+    .widget h3:after { width: 175px }
+    .footer-widgets h3:after { width: 70% }
+}
+@media screen and (max-width:960px) { 
+    .ad-300 img { max-width: 100% }
+    .ad-125 li { max-width: 40% }
+    .ad-125 img { padding: 0; background: #FAFAFA; border: 0; }
+    .logo-wrap { min-width: 170px }
+    #site-footer .logo-wrap { max-width: 100% }
+    .top-posts .latestPost header .title { font-size: 18px }
+    .post-type-2 .post-image, .post-type-3 .post-image { margin-right: 15px }
+    .front-view-content { font-size: 15px }
+    .post-type-2 .front-view-content, .post-type-3 .front-view-content { padding-top: 5px }
+    .widget .wpt_widget_content ul.has-3-tabs li { width: 50%; margin-top: 1px; }
+    .widget .wpt_widget_content ul.has-3-tabs li.tab_title a { padding-top: 12px; padding-bottom: 12px; }
+    .widget .wpt_widget_content ul.has-3-tabs li.tab_title:nth-child(1) a, .widget .wpt_widget_content ul.has-3-tabs li.tab_title:nth-child(2) a { padding-top: 0 }
+    .children .comment .comment-text-wrap, .comment .comment-text-wrap { width: 85% }
+    .widgets-num-4 .f-widget-1 { width: 25% }
+    .widgets-num-4 .f-widget-bigger { width: 70% }
+    #primary-navigation a { padding: 0px 11px }
+    .related-posts .title { font-size: 17px }
+    .related-posts .latestPost .post-image { width: 30% }
+}
+@media screen and (max-width:865px) { 
+    #page, .container { max-width: 96% }
+    #site-footer .container { padding: 0 2% }
+    .mts-cart span a { padding-bottom: 0 }
+    .mts-cart { float: none; text-align: center!important; }
+    .header-layout-2 #header h1, .header-layout-2  #header h2, .header-layout-2  .site-description { float: none; text-align: center; width: 100%; max-width: 100%; padding: 0; }
+    .header-layout-2 #logo a, .header-layout-2 #logo img { float: none; letter-spacing: 0; }
+    .header-layout-2 .logo-wrap { margin-bottom: 10px; margin-top: 0; width: 100%; }
+    .navigation { width: 100%; display: none; box-sizing: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; }
+    .navigation .menu a, .navigation .menu .fa > a, .navigation .menu .fa > a { background: transparent }
+    .navigation .menu { display: block!important; float: none; background: transparent; margin-bottom: 45px; }
+    .navigation ul ul { visibility: visible!important; opacity: 1!important; position: relative; left: 0!important; border: 0; width: 100%; box-shadow: none; -webkit-box-shadow:none; }
+    .navigation ul li li { background: transparent; border: 0; }
+    nav { height: auto }
+    nav li, .navigation ul li li { width: 100%!important; float: left; position: relative; }
+    .navigation ul li:after { display: none }
+    .navigation ul li:before { display: none }
+    nav li a { border-bottom: 1px solid rgba(255,255,255,0.09)!important; width: 100%!important; box-sizing: border-box; }
+    nav a { text-align: left; width: 100%; text-indent: 25px; }
+    a#pull { display: block; width: 100%; position: relative; color: #fff; padding: 0!important; text-indent: 15px; padding-top: 3px!important; }
+    a#pull:after { content: "\f0c9"; display: inline-block; position: absolute; right: -17px; top: 0px; font-family: FontAwesome; }
+    .navigation ul .sfHover a, .navigation ul li:hover, .navigation ul .sfHover ul li { background: transparent }
+    /*disable flayout*/
+    #catcher { height: 0 !important }
+    .sticky-navigation-active { position: relative !important; top: 0 !important; }
+    /*-[ Responsive Navigation ]--------------------------------*/
+    .main-container { position: relative; left: 0; transition: left 500ms ease; }
+    .mobile-menu-active .main-container { left: 300px; transition: left 500ms ease; }
+    .navigation.mobile-menu-wrapper { display: block; position: fixed; top: 0; left: -300px; width: 300px; height: 100%; background-color: #1e5078; border-right: 1px solid rgba(255,255,255,0.09); overflow: auto; transition: left 500ms ease; -webkit-backface-visibility: hidden; }
+    .mobile-menu-active .navigation.mobile-menu-wrapper { left: 0 }
+    .navigation ul li { width: 100%; display: block; }
+    .navigation ul li:hover { background: none }
+    .navigation ul li a, .navigation ul ul a { padding: 9px 0; width: 100%; border: none; }
+    .navigation ul ul { position: static; width: 100%; border: none; }
+    .navigation ul ul li { background: none; width: 100%; }
+    .navigation i { display: inline }
+    .navigation ul ul a { padding: 9px 18px !important }
+    .navigation ul ul ul a { padding: 9px 27px !important }
+    .navigation ul ul ul ul a { padding: 9px 36px !important }
+    .navigation .toggle-caret { display: block; width: 42px; height: 42px; line-height: 42px; color: #c1c9d1; border-left: 1px solid rgba(255,255,255,0.09); }
+    .navigation .menu-item-has-children > a:after { content: '' }
+    /*-[ Mega Menu ]--------------------------------*/
+    #wpmm-megamenu .wpmm-subcategories { width: 100%; text-indent: 0; }
+    #wpmm-megamenu .wpmm-posts { width: 100% }
+    #wpmm-megamenu .wpmm-post { width: 100%!important; padding: 0 10px!important; text-align: center!important; }
+    #wpmm-megamenu .wpmm-thumbnail img { float: left }
+    #primary-navigation a, #primary-navigation ul ul li a, #primary-navigation ul ul ul li a { padding: 6px 12px; padding-top: 12px; }
+    #primary-navigation ul ul li a, #primary-navigation ul ul ul li a { color: #c1c9d1!important }
+    .navigation ul ul, .navigation ul ul ul { margin-top: 0 }
+    .widgets-num-4 .f-widget-1, .widgets-num-4 .f-widget-bigger { width: 100%; float: none; margin: 40px auto 0 auto; overflow: hidden; }
+    .widgets-num-4 .f-widget-bigger { margin-bottom: 0 }
+    .post-type-2 .latestPost .title, .post-type-3 .latestPost .title { font-size: 19px }
+    .sidebar .widget-slider h2 { bottom: 4px; font-size: 16px; max-height: 38px; }
+    .widget .wpt_widget_content .entry-title, .widget .wp_review_tab_widget_content .entry-title { font-size: 16px }
+    .advanced-recent-posts li .post-title a, .popular-posts li .post-title a, .category-posts li .post-title a, .related-posts-widget li .post-title a, .author-posts-widget li .post-title a { font-size: 17px }
+}
+@media screen and (max-width:800px) { 
+    .admin-bar .pace .pace-progress { top: 46px }
+    .article { width: 100% }
+    #content_box { padding-right: 0px; padding-left: 0px!important; }
+    .sidebar.c-4-12 { float: none; width: 100% !important; padding-left: 0; padding-right: 0; margin: 0 auto; }
+    .post-type-2 .latestPost .title, .post-type-3 .latestPost .title { margin-bottom: 5px; font-size: 20px; }
+    .post-type-2 .front-view-content, .post-type-3 .front-view-content { padding-top: 10px }
+    .sidebar .widget-slider h2 { font-size: 20px; max-height: 50px; bottom: 12px; }
+    .widget .wpt_widget_content ul.has-3-tabs li { width: 33.33% }
+    .children .comment .comment-text-wrap, .comment .comment-text-wrap { width: 87% }
+    .widget .wpt_widget_content ul.has-3-tabs li.tab_title a { padding-top: 0px; padding-bottom: 12px; }
+    .related-posts .title { font-size: 18px }
+}
+@media screen and (max-width:728px) { 
+    .article .widget { max-width: 300px; float: right; clear: none; margin-top: 63px; margin-bottom: 30px; width: 100%; margin-left: auto; margin-right: auto; /* clear: both; */ float: none; }
+    #logo a, #logo img { float: none; letter-spacing: 0; }
+    .logo-wrap { margin-bottom: 10px; margin-top: 0; width: 100%; text-align: center; }
+    #header h1, #header h2, .site-description { float: none; width: 100%; margin: 0; max-width: 100%; }
+    .widget-header { max-width: 100%; float: left; }
+}
+@media screen and (max-width:720px) { 
+    .f-widget-2, .widgets-num-4 .f-widget-2, .widgets-num-4 .f-widget.last { margin-right: 0 }
+    .ad-125 li { max-width: 45% }
+    #comments { margin-right: 0 }
+    .widget-header .textwidget { margin-top: 0; padding-left: 0; border-left: none; }
+    .widget h3 { font-size: 20px }
+    .bottom-slider .slide-caption h2 { font-size: 17px; bottom: 45px; }
+}
+@media screen and (max-width:640px) { 
+    .featured-thumbnail img { width: 100% }
+    .admin-bar .pace .pace-progress { top: 0px }
+    .top-posts .latestPost { width: 50%; max-width: 100%; }
+    .top-posts .latestPost .featured-thumbnail { float: none; overflow: hidden; }
+    .top-posts .latestPost .post-image { float: none }
+    .top-posts .latestPost header .title { font-size: 22px }
+    .latestPost .title { font-size: 19px }
+    .post-type-2 .front-view-content, .post-type-3 .front-view-content { overflow: hidden }
+    .children .comment .comment-text-wrap, .comment .comment-text-wrap { width: 82% }
+    .postauthor .author-wrap { width: 75% }
+    blockquote { padding: 0px 10px 20px 50px }
+    blockquote:after { font-size: 40px; top: 0; }
+    .related-posts h4, #comments h4, #commentsAdd h4, .postauthor h4 { font-size: 20px }
+    .related-posts h4:before, #comments h4:before, #commentsAdd h4:before, .postauthor h4:before { width: 160px }
+    .postauthor h4:before { width: 200px }
+    #comments h4:before { width: 310px }
+    #commentsAdd h4:before { width: 60px }
+    .widgets-num-4 .f-widget-bigger .f-widget { width: 47%; margin-right: 6%; margin-bottom: 15px; }
+    .widgets-num-4 .f-widget-bigger .f-widget:nth-child(even) { margin-right: 0 }
+    .bottom-slider .slide-caption h2 { font-size: 16px }
+    .related-posts .title { font-size: 18px }
+    .related-posts { width: 100%; max-width: 100%; }
+    .single .single-ad { float: left; margin-top: 0; width: 100%; }
+}
+@media screen and (max-width:550px) { 
+    .sbutton { float: right }
+    #primary-navigation { float: right; margin-right: 17px; }
+    .search-style-one { float: right; clear: left; }
+    .header-social { float: left; clear: left; }
+    #header { padding-top: 25px; padding-bottom: 25px; }
+    .header-social a, .search-style-one a { background: rgba(255, 255, 255, 0.1) }
+    .logo-wrap { margin-bottom: 25px }
+    .top-posts .latestPost header .title { font-size: 18px }
+    .featured-view ul.links { display: none }
+    /*.post-type-3, .post-type-2 { display: none!important }
+    .post-type-1 { display: block!important }*/
+    .single-title { font-size: 25px!important }
+    .postauthor .author-wrap { width: 70% }
+    .related-posts .title { font-size: 18px }
+    .single_page .one_half, .single_page .one_third, .single_page .two_third, .single_page .three_fourth, .single_page .one_fourth, .single_page .one_fifth, .single_page .two_fifth, .single_page .three_fifth, .single_page .four_fifth, .single_page .one_sixth, .single_page .five_sixth { width: 100% }
+    .bottom-slider .slide-caption h2 { font-size: 15px }
+}
+@media screen and (max-width:480px) { 
+    nav { border-bottom: 0 }
+    .navigation { margin-top: 0; margin-bottom: 0; }
+    .related-posts .latestPost { width: 100%; float: left!important; max-width: 100%; }
+    .related-posts .relatepostli4 { padding-bottom: 15px; border-bottom: 1px solid #CCC; margin-bottom: 11px; }
+    .one_half, .one_third, .two_third, .three_fourth, .one_fourth, .one_fifth, .two_fifth, .three_fifth, .four_fifth, .one_sixth, .five_sixth { width: 100%; margin-right: 0; }
+    .copyrights { text-align: center }
+    .top { width: 100% }
+    #cancel-comment-reply-link { margin-bottom: 0; margin-top: -43px; }
+    .latestPost { width: 100%; margin-right: 0; }
+    .post-image { float: none }
+    .related-posts .post-image { float: left }
+    .featured-thumbnail { float: none; overflow: hidden; }
+    .post-type-2 .featured-thumbnail, .post-type-3 .featured-thumbnail { max-width: 100%!important }
+    .post-type-2 .post-image, .post-type-3 .post-image { margin-right: 0 }
+    .post-type-2 .latestPost header, .post-type-3 .latestPost header { margin-top: 20px }
+    .copyrights .row > span { float: none }
+    .to-top { float: none; clear: both; margin-top: 10px; }
+    .children .comment .comment-text-wrap, .comment .comment-text-wrap { width: 78% }
+    .postauthor .author-wrap { width: 65% }
+}
+@media screen and (max-width:400px) { 
+    article header { overflow: hidden }
+    .slidertext { display: none }
+    .widgets-num-4 .f-widget-bigger .f-widget { width: 100%; margin-right: 0; }
+    .top-posts .latestPost header .title { font-size: 15px }
+    .children .comment .comment-text-wrap, .comment .comment-text-wrap { width: 75% }
+    .related-posts .title { font-size: 16px }
+}
